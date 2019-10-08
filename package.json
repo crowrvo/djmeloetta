@@ -1,0 +1,20 @@
+{
+    "name": "djmeloetta",
+    "version": "1.0.0",
+    "description": "Sou uma Pokémon muito animada e pronta pra mostrar as melodias que tenho de melhor!",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Hareon & Crowrvo",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^11.5.1",
+        "dotenv": "^8.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
