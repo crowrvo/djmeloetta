@@ -18,7 +18,8 @@ module.exports = (client, message) => { //Le as msgs do chat
                     "Você devia melhorar seu linguajar ",
                     "Tem crianças no recinto, seja mais educado "
                 );
-                message.channel.send(Arr[Math.round(Math.random() * Arr.length) - 1] + message.author);
+                var rnd = Math.round(Math.random() * Arr.length) - 1;
+                message.channel.send(Arr[rnd] + message.author);
                 message.delete();
             }
         });
