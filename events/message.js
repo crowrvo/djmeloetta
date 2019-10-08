@@ -10,7 +10,16 @@ module.exports = (client, message) => { //Le as msgs do chat
             }
 
             if (message.content.indexOf('porra') !== -1) {
-                return message.delete();
+                var Arr = new Array(
+                    "Mas que palavra feia ",
+                    "você não deveria dizer essas coisas ",
+                    "Não posso deixar vc falar isso ",
+                    "Meus olhos não merecem essa baixaria ",
+                    "Você devia melhorar seu linguajar ",
+                    "Tem crianças no recinto, seja mais educado "
+                );
+                message.channel.send(Arr[Math.round(Math.random() * Arr.length) - 1] + message.author);
+                message.delete();
             }
         });
     });
