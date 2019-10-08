@@ -4,7 +4,6 @@ const fs = require('fs'); //Gerenciador de arquivos - cuida do diretório
 const client = new Discord.Client(); // API do discord
 
 
-
 fs.readdir('./events/', (err, files) => {
 
         //Esse proximo comando cria todas as funções de tratamentos dos eventos baseados nas pastas

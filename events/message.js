@@ -8,6 +8,10 @@ module.exports = (client, message) => { //Le as msgs do chat
             if (message.content.startsWith('!' + commandName)) { //Testa se a messagen é um comando existente
                 return commandHandler(message); //trás o resultado do comando
             }
+
+            if (message.content.indexOf('porra') !== -1) {
+                message.delete();
+            }
         });
     });
 }
