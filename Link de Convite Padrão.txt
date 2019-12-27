@@ -7,3 +7,5 @@ Clembô  626955365401100300
 
 discordapp.com/oauth2/authorize?=&client_id=626965393222664212&scope=bot&permissions=8
 Meloetta 626965393222664212
+
+ddd
