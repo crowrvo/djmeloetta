@@ -2,7 +2,7 @@ require('dotenv').config(); // Pega de modo seguro o token do bot
 const Discord = require("discord.js"); //baixar a lib
 const fs = require('fs'); //Gerenciador de arquivos - cuida do diretório
 const client = new Discord.Client(); // API do discord
-
+ 
 
 fs.readdir('./events/', (err, files) => {
 
